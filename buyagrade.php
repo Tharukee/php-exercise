@@ -49,8 +49,11 @@
         <input type = "text" name = "credit"></input>
       </dd>
       <dd>
-        <input type = "radio" name = "radio">
-          <lable></lable>
+        <input type = "radio" name = "cardtype">
+          <lable for = "visa">Visa</lable>
+        </input>
+        <input type = "radio" name = "cardtype">
+          <lable for = "mastercard">MasterCard</lable>
         </input>
       </dd>
     </dl>
